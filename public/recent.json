@@ -1,0 +1,1869 @@
+{
+  "_id": {
+    "$oid": "5ebf18695852c1d4dd6573bc"
+  },
+  "results": {
+    "single_column_analysis": {
+      "topology_2g_multi_anonymized": {
+        "lac": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "5-character": 42539,
+            "4-character": 3898,
+            "3-character": 1
+          },
+          "sample_data": {
+            "5-character": "12158",
+            "4-character": "2002",
+            "3-character": "306"
+          },
+          "Entropy": 5.002351028604805
+        },
+        "mnc": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "3": 46438
+          },
+          "Entropy": -0.0
+        },
+        "bcch": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "3-character": 26721,
+            "2-character": 18311,
+            "1-character": 1319,
+            "4-character": 87
+          },
+          "sample_data": {
+            "3-character": "587",
+            "2-character": "57",
+            "1-character": "2",
+            "4-character": "1020"
+          },
+          "Entropy": 5.1541050695287085
+        },
+        "tch_nbr": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "length_distribution": {
+            "2-character": 16883,
+            "1-character": 723,
+            "3-character": 12
+          },
+          "sample_data": {
+            "2-character": "18",
+            "1-character": "4",
+            "3-character": "100"
+          },
+          "Entropy": 3.511387568481199
+        },
+        "TYPE": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "categories": {
+            "nan": 17618,
+            "DCS1800": 16684,
+            "GSM900": 12136
+          },
+          "Entropy": 0.6806434415276157
+        },
+        "layer": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "categories": {
+            "GSM1800": 26059,
+            "GSM900": 20091,
+            "nan": 288
+          },
+          "Entropy": 0.684762217812811
+        },
+        "band_layer_id": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "categories": {
+            "GSM1800": 26059,
+            "GSM900": 20091,
+            "nan": 288
+          },
+          "Entropy": 0.684762217812811
+        },
+        "cell_int_id": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "1-character": 17840,
+            "3-character": 16515,
+            "4-character": 9155,
+            "2-character": 2928
+          },
+          "sample_data": {
+            "1-character": "1",
+            "3-character": "413",
+            "4-character": "7000",
+            "2-character": "10"
+          },
+          "Entropy": 5.93828608294891
+        },
+        "site_id": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "length_distribution": {
+            "2-character": 10849,
+            "3-character": 8704,
+            "4-character": 7952,
+            "1-character": 1315
+          },
+          "sample_data": {
+            "2-character": "87",
+            "3-character": "101",
+            "4-character": "5061",
+            "1-character": "1"
+          },
+          "Entropy": 6.026123979675012
+        },
+        "sdcch_nbr": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "length_distribution": {
+            "2-character": 9204,
+            "1-character": 8413,
+            "3-character": 1
+          },
+          "sample_data": {
+            "2-character": "15",
+            "1-character": "7",
+            "3-character": "111"
+          },
+          "Entropy": 1.160857862234511
+        },
+        "district": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "10-character": 42986,
+            "9-character": 3452
+          },
+          "sample_data": {
+            "10-character": "2124800000",
+            "9-character": "722100000"
+          },
+          "Entropy": 5.3385921652968396
+        },
+        "vendor_multi": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "MULTI": 46438
+          },
+          "Entropy": -0.0
+        },
+        "antenna_gain": {
+          "label": "Numerical (Float)",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "stats": {
+            "Max": 23.0,
+            "Min": 0.0,
+            "Count": 46438.0,
+            "Mean": 17.101262489771308,
+            "Median": 17.5,
+            "Std dev": 2.2056498742860056
+          },
+          "distribution": {
+            "0.0-1.15": 435,
+            "1.15-2.3": 132,
+            "2.3-3.45": 0,
+            "3.45-4.6": 0,
+            "4.6-5.75": 40,
+            "5.75-6.9": 4,
+            "6.9-8.05": 128,
+            "8.05-9.2": 75,
+            "9.2-10.35": 3,
+            "10.35-11.5": 12,
+            "11.5-12.65": 132,
+            "12.65-13.8": 58,
+            "13.8-14.95": 565,
+            "14.95-16.1": 3472,
+            "16.1-17.25": 14731,
+            "17.25-18.4": 22634,
+            "18.4-19.55": 3946,
+            "19.55-20.7": 4,
+            "20.7-21.85": 59,
+            "21.85-23.0": 8
+          },
+          "distribution bin size": 20,
+          "Entropy": 3.582300592581722
+        },
+        "segment_id": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "1": 46438
+          },
+          "Entropy": -0.0
+        },
+        "antenna": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "14-character": 27811,
+            "21-character": 8143,
+            "28-character": 2614,
+            "16-character": 2442,
+            "18-character": 1133,
+            "15-character": 692,
+            "29-character": 440,
+            "19-character": 424,
+            "31-character": 381,
+            "36-character": 358,
+            "27-character": 309,
+            "30-character": 293,
+            "23-character": 239,
+            "24-character": 216,
+            "22-character": 165,
+            "17-character": 165,
+            "38-character": 134,
+            "13-character": 109,
+            "20-character": 83,
+            "12-character": 47,
+            "44-character": 39,
+            "41-character": 38,
+            "25-character": 36,
+            "26-character": 35,
+            "35-character": 35,
+            "11-character": 34,
+            "37-character": 7,
+            "32-character": 6,
+            "34-character": 5,
+            "9-character": 2,
+            "33-character": 2,
+            "40-character": 1
+          },
+          "sample_data": {
+            "14-character": "739650_GSM_00T",
+            "21-character": "HADU451602v01_GSM_03T",
+            "28-character": "TDQ-172718DEH-65Fv02_DCS_02T",
+            "16-character": "80010291_GSM_03T",
+            "18-character": "HADU451819_DCS_04T",
+            "15-character": "PW_7477_GSM_00T",
+            "29-character": "HBXXX-6516DS-VTM_1880MHz_02DT",
+            "19-character": "80010305V02_GSM_01T",
+            "31-character": "HT264515R00_(AAU5940WB)_DCS_00T",
+            "36-character": "TQB-609016-T172716DEH-65Fv02_DCS_03T",
+            "27-character": "TTS-172718DEI-65FT2_DCS_05T",
+            "30-character": "TDQ-172718DEI-65FT2v01_DCS_03T",
+            "23-character": "CELLMAX-O-CPUSE_GSM_00T",
+            "24-character": "LDX-6516DS-VTM_02DT_0935",
+            "22-character": "HATR4518R14v06_DCS_03T",
+            "17-character": "APX906516_902_07T",
+            "38-character": "TTDB-609015-D172717-D172719DER-GSM_06T",
+            "13-character": "742215_3G_03T",
+            "20-character": "APXV90-1814B_GSM_04T",
+            "12-character": "DB858DG90ESY",
+            "44-character": "TTB-609015-172717-172717DEH-65FT2v02_GSM_05T",
+            "41-character": "TTDB-609015-D172717-D172719DER_DCS-30_04T",
+            "25-character": "TDJ-609017DEH-65F_GSM_01T",
+            "26-character": "HAOA_07091827_N_25_DCS_00T",
+            "35-character": "TYDB-182020DEH4-33FT2v04_DCS+30_05T",
+            "11-character": "80010173_DB",
+            "37-character": "TDJ-609015-172717DEH-65FT2v02_GSM_03T",
+            "32-character": "TYMB-182023D10-12FT6_DCS_+20_06T",
+            "34-character": "TYDB-182020DEH4-33FT2v04_3G+30_04T",
+            "9-character": "K739160TP",
+            "33-character": "HT264515R00_(AAU5940NB)_H_DCS_00T",
+            "40-character": "TTDB-609015-D172717-D172719DER_3G-30_07T"
+          },
+          "Entropy": 4.946572819182761
+        },
+        "ci": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "4-character": 25234,
+            "5-character": 16221,
+            "3-character": 4515,
+            "2-character": 468
+          },
+          "sample_data": {
+            "4-character": "1801",
+            "5-character": "10281",
+            "3-character": "921",
+            "2-character": "11"
+          },
+          "Entropy": 8.78246368341474
+        },
+        "technology_name": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "GSM": 46438
+          },
+          "Entropy": -0.0
+        },
+        "market": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "KS": 46438
+          },
+          "Entropy": -0.0
+        },
+        "vendor": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "HUA": 28820,
+            "ZTE": 17618
+          },
+          "Entropy": 0.6637635166466009
+        },
+        "CELLNO": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "length_distribution": {
+            "2-character": 20282,
+            "3-character": 6281,
+            "1-character": 2257
+          },
+          "sample_data": {
+            "2-character": "60",
+            "3-character": "104",
+            "1-character": "6"
+          },
+          "Entropy": 4.850070811404321
+        },
+        "phy_tilt": {
+          "label": "Numerical (Integer)",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "stats": {
+            "Max": 90.0,
+            "Min": -45.0,
+            "Count": 46418.0,
+            "Mean": 1.1892455512947564,
+            "Median": 0.0,
+            "Std dev": 2.276228782789398
+          },
+          "distribution": {
+            "-45.0--38.25": 2,
+            "-38.25--31.5": 0,
+            "-31.5--24.75": 1,
+            "-24.75--18.0": 1,
+            "-18.0--11.25": 14,
+            "-11.25--4.5": 115,
+            "-4.5-2.25": 35933,
+            "2.25-9.0": 10193,
+            "9.0-15.75": 150,
+            "15.75-22.5": 0,
+            "22.5-29.25": 1,
+            "29.25-36.0": 0,
+            "36.0-42.75": 0,
+            "42.75-49.5": 1,
+            "49.5-56.25": 0,
+            "56.25-63.0": 0,
+            "63.0-69.75": 0,
+            "69.75-76.5": 0,
+            "76.5-83.25": 0,
+            "83.25-90.0": 7
+          },
+          "distribution bin size": 20,
+          "Entropy": 1.5435710679414123
+        },
+        "bsic": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "2-character": 43158,
+            "1-character": 3280
+          },
+          "sample_data": {
+            "2-character": "17",
+            "1-character": "4"
+          },
+          "Entropy": 4.121642482057899
+        },
+        "bsc_name": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "6-character": 28820,
+            "7-character": 17618
+          },
+          "sample_data": {
+            "6-character": "BSC518",
+            "7-character": "BSC1301"
+          },
+          "Entropy": 3.7696020673648003
+        },
+        "technology_id": {
+          "label": "Null",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "True"
+          },
+          "categories": {
+            "nan": 46438
+          },
+          "Entropy": -0.0
+        },
+        "elec_tilt": {
+          "label": "Numerical (Float)",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "stats": {
+            "Max": 14.0,
+            "Min": -40.0,
+            "Count": 46438.0,
+            "Mean": 2.341261466902106,
+            "Median": 2.0,
+            "Std dev": 2.623874448223349
+          },
+          "distribution": {
+            "-40.0--37.3": 16,
+            "-37.3--34.6": 0,
+            "-34.6--31.9": 0,
+            "-31.9--29.2": 0,
+            "-29.2--26.5": 0,
+            "-26.5--23.8": 0,
+            "-23.8--21.1": 0,
+            "-21.1--18.4": 0,
+            "-18.4--15.7": 0,
+            "-15.7--13.0": 0,
+            "-13.0--10.3": 0,
+            "-10.3--7.6": 5,
+            "-7.6--4.9": 6,
+            "-4.9--2.2": 4,
+            "-2.2-0.5": 18695,
+            "0.5-3.2": 12535,
+            "3.2-5.9": 9425,
+            "5.9-8.6": 4978,
+            "8.6-11.3": 648,
+            "11.3-14.0": 126
+          },
+          "distribution bin size": 20,
+          "Entropy": 1.8759786348863683
+        },
+        "bsc_int_id": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "6-character": 28820,
+            "4-character": 17618
+          },
+          "sample_data": {
+            "6-character": "BSC518",
+            "4-character": "1301"
+          },
+          "Entropy": 3.769602067364801
+        },
+        "pm": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "TRUE": 46438
+          },
+          "Entropy": -0.0
+        },
+        "segment_name": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "RAN": 46438
+          },
+          "Entropy": -0.0
+        },
+        "sector_int_id": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "1-character": 17566,
+            "4-character": 13665,
+            "5-character": 12248,
+            "3-character": 2517,
+            "2-character": 442
+          },
+          "sample_data": {
+            "1-character": "1",
+            "4-character": "1801",
+            "5-character": "23637",
+            "3-character": "551",
+            "2-character": "79"
+          },
+          "Entropy": 7.348961060498079
+        },
+        "oblast": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "4-character": 10889,
+            "8-character": 8348,
+            "7-character": 7573,
+            "5-character": 5962,
+            "6-character": 4023,
+            "10-character": 4006,
+            "11-character": 2942,
+            "15-character": 1612,
+            "9-character": 1083
+          },
+          "sample_data": {
+            "4-character": "Kyiv",
+            "8-character": "Zhytomyr",
+            "7-character": "Kherson",
+            "5-character": "Volyn",
+            "6-character": "Dnipro",
+            "10-character": "Chernivtsi",
+            "11-character": "Zakarpattia",
+            "15-character": "Ivano-Frankivsk",
+            "9-character": "Chernihiv"
+          },
+          "Entropy": 2.9961398094698213
+        },
+        "ncc": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "2": 8353,
+            "1": 7086,
+            "3": 6677,
+            "4": 5849,
+            "5": 5248,
+            "6": 4988,
+            "7": 4957,
+            "0": 3280
+          },
+          "Entropy": 2.0473132939635628
+        },
+        "frequency_band": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "categories": {
+            "GSM1800": 26059,
+            "GSM900": 20091,
+            "nan": 288
+          },
+          "Entropy": 0.684762217812811
+        },
+        "technology_short_name": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "2G": 46438
+          },
+          "Entropy": -0.0
+        },
+        "height": {
+          "label": "Numerical (Float)",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "stats": {
+            "Max": 171.0,
+            "Min": 0.1,
+            "Count": 46438.0,
+            "Mean": 38.5993307205306,
+            "Median": 39.0,
+            "Std dev": 14.152677980655668
+          },
+          "distribution": {
+            "0.1-8.645": 790,
+            "8.645-17.19": 1441,
+            "17.19-25.735": 4181,
+            "25.735-34.28": 11933,
+            "34.28-42.825": 13487,
+            "42.825-51.37": 8630,
+            "51.37-59.915": 2462,
+            "59.915-68.46": 2018,
+            "68.46-77.005": 1009,
+            "77.005-85.55": 136,
+            "85.55-94.095": 160,
+            "94.095-102.64": 101,
+            "102.64-111.185": 30,
+            "111.185-119.73": 20,
+            "119.73-128.275": 14,
+            "128.275-136.82": 9,
+            "136.82-145.365": 3,
+            "145.365-153.91": 11,
+            "153.91-162.455": 0,
+            "162.455-171.0": 3
+          },
+          "distribution bin size": 20,
+          "Entropy": 4.4619359926982245
+        },
+        "cosector_relations": {
+          "label": "Null",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "True"
+          },
+          "categories": {
+            "nan": 46438
+          },
+          "Entropy": -0.0
+        },
+        "carrier_id": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "categories": {
+            "2": 16684,
+            "1": 12136,
+            "GSM1800": 9375,
+            "GSM900": 7955,
+            "nan": 288
+          },
+          "Entropy": 1.345902324087906
+        },
+        "network": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "network": 46438
+          },
+          "Entropy": -0.0
+        },
+        "cgi": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "2.55E+14": 46438
+          },
+          "Entropy": -0.0
+        },
+        "bcc": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "1": 6380,
+            "2": 6205,
+            "0": 6058,
+            "3": 5963,
+            "4": 5603,
+            "5": 5508,
+            "6": 5389,
+            "7": 5332
+          },
+          "Entropy": 2.077395795905263
+        },
+        "region": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "center": 13781,
+            "east": 13743,
+            "west": 12150,
+            "south": 6764
+          },
+          "Entropy": 1.3522612757498238
+        },
+        "oss_int_id": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "True"
+          },
+          "categories": {
+            "nan": 28820,
+            "2.59E+11": 17618
+          },
+          "Entropy": -0.0
+        },
+        "site_int_id": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "4-character": 19768,
+            "2-character": 10849,
+            "3-character": 8716,
+            "5-character": 5790,
+            "1-character": 1315
+          },
+          "sample_data": {
+            "4-character": "5061",
+            "2-character": "87",
+            "3-character": "101",
+            "5-character": "18214",
+            "1-character": "1"
+          },
+          "Entropy": 7.547958379582235
+        },
+        "mcc": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "255": 46438
+          },
+          "Entropy": -0.0
+        },
+        "cgi_hex": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "13-character": 44978,
+            "8-character": 1414,
+            "9-character": 46
+          },
+          "sample_data": {
+            "13-character": "255032F7E0709",
+            "8-character": "2.55E+12",
+            "9-character": "2.55E+187"
+          },
+          "Entropy": 10.549347684563998
+        },
+        "antenna_0": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "length_distribution": {
+            "6-character": 27467,
+            "13-character": 8172,
+            "20-character": 2973,
+            "8-character": 2448,
+            "10-character": 1132,
+            "16-character": 431,
+            "11-character": 423,
+            "28-character": 360,
+            "14-character": 357,
+            "22-character": 282,
+            "19-character": 270,
+            "15-character": 241,
+            "30-character": 103,
+            "9-character": 81,
+            "12-character": 54,
+            "5-character": 52,
+            "21-character": 41,
+            "36-character": 39,
+            "24-character": 36,
+            "7-character": 35,
+            "17-character": 21,
+            "4-character": 12,
+            "29-character": 2,
+            "27-character": 2
+          },
+          "sample_data": {
+            "6-character": "739650",
+            "13-character": "HADU451602v01",
+            "20-character": "TDQ-172718DEH-65Fv02",
+            "8-character": "80010291",
+            "10-character": "HADU451819",
+            "16-character": "HBXXX-6516DS-VTM",
+            "11-character": "80010305V02",
+            "28-character": "TQB-609016-T172716DEH-65Fv02",
+            "14-character": "LDX-6516DS-VTM",
+            "22-character": "TDQ-172718DEI-65FT2v01",
+            "19-character": "TTS-172718DEI-65FT2",
+            "15-character": "CELLMAX-O-CPUSE",
+            "30-character": "TTDB-609015-D172717-D172719DER",
+            "9-character": "APX906516",
+            "12-character": "APXV90-1814B",
+            "5-character": "90018",
+            "21-character": "HADA-07091827-N-5-8-6",
+            "36-character": "TTB-609015-172717-172717DEH-65FT2v02",
+            "24-character": "TYDB-182020DEH4-33FT2v04",
+            "7-character": "K732267",
+            "17-character": "TDJ-609017DEH-65F",
+            "4-character": "OMNI",
+            "29-character": "TDJ-609015-172717DEH-65FT2v02",
+            "27-character": "TDJ-609017-172718DEI-65Fv03"
+          },
+          "Entropy": 3.5155238099952686
+        },
+        "antenna_1": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "length_distribution": {
+            "3-character": 43859,
+            "7-character": 407,
+            "6-character": 394,
+            "4-character": 212,
+            "2-character": 149,
+            "5-character": 13
+          },
+          "sample_data": {
+            "3-character": "GSM",
+            "7-character": "1880MHz",
+            "6-character": "DCS+30",
+            "4-character": "02DT",
+            "2-character": "3G",
+            "5-character": "3G-30"
+          },
+          "Entropy": 0.8567669144511783
+        },
+        "antenna_2": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "length_distribution": {
+            "3-character": 44367,
+            "4-character": 655,
+            "8-character": 12
+          },
+          "sample_data": {
+            "3-character": "00T",
+            "4-character": "0935",
+            "8-character": "MICRORBS"
+          },
+          "Entropy": 1.9403097214753688
+        },
+        "cgi_hex_0": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "length_distribution": {
+            "5-character": 14756,
+            "6-character": 12650,
+            "7-character": 10078,
+            "8-character": 3764,
+            "10-character": 1418,
+            "11-character": 1009,
+            "12-character": 707,
+            "9-character": 596
+          },
+          "sample_data": {
+            "5-character": "25503",
+            "6-character": "255032",
+            "7-character": "2550330",
+            "8-character": "25503484",
+            "10-character": "2550308711",
+            "11-character": "25503087120",
+            "12-character": "255030871019",
+            "9-character": "255036979"
+          },
+          "Entropy": 3.3328250068062797
+        },
+        "cgi_hex_1": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "length_distribution": {
+            "1-character": 9707,
+            "2-character": 9430,
+            "4-character": 7666,
+            "3-character": 6957,
+            "5-character": 5490,
+            "6-character": 3218,
+            "7-character": 1135
+          },
+          "sample_data": {
+            "1-character": "7",
+            "2-character": "11",
+            "4-character": "1073",
+            "3-character": "118",
+            "5-character": "12487",
+            "6-character": "380227",
+            "7-character": "0110020"
+          },
+          "Entropy": 7.158212324044584
+        },
+        "cgi_hex_2": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "True"
+          },
+          "length_distribution": {
+            "1-character": 31209,
+            "2-character": 9213,
+            "3-character": 3498,
+            "4-character": 1004,
+            "5-character": 39,
+            "8-character": 6,
+            "6-character": 5,
+            "7-character": 4
+          },
+          "sample_data": {
+            "1-character": "F",
+            "2-character": "EE",
+            "3-character": "BEF",
+            "4-character": "CCBA",
+            "5-character": "EDBEE",
+            "8-character": "BBFEACBD",
+            "6-character": "BFFABE",
+            "7-character": "BBFEACF"
+          },
+          "Entropy": 2.9286017818043053
+        }
+      },
+      "trx": {
+        "dsp": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "0": 64772
+          },
+          "Entropy": -0.0
+        },
+        "bipbunit": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "0": 64772
+          },
+          "Entropy": -0.0
+        },
+        "cafreqnum": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "4": 15788,
+            "3": 13647,
+            "1": 10033,
+            "2": 7352,
+            "6": 6330,
+            "5": 6121,
+            "8": 2152,
+            "7": 1134,
+            "9": 792,
+            "10": 780,
+            "11": 451,
+            "12": 192
+          },
+          "Entropy": 2.001117664027622
+        },
+        "pwrreduction": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "0": 64768,
+            "1": 4
+          },
+          "Entropy": 0.0006603040481008819
+        },
+        "caarfcnlist": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "11-character": 11769,
+            "15-character": 9258,
+            "23-character": 5712,
+            "2-character": 4975,
+            "19-character": 4900,
+            "3-character": 4474,
+            "8-character": 3926,
+            "7-character": 3751,
+            "5-character": 3495,
+            "31-character": 2088,
+            "10-character": 1221,
+            "12-character": 1168,
+            "27-character": 952,
+            "14-character": 837,
+            "35-character": 765,
+            "39-character": 760,
+            "9-character": 757,
+            "4-character": 688,
+            "13-character": 647,
+            "1-character": 530,
+            "6-character": 494,
+            "43-character": 440,
+            "17-character": 391,
+            "16-character": 205,
+            "47-character": 192,
+            "18-character": 119,
+            "20-character": 99,
+            "21-character": 48,
+            "26-character": 26,
+            "22-character": 22,
+            "28-character": 19,
+            "25-character": 16,
+            "33-character": 11,
+            "29-character": 10,
+            "24-character": 7
+          },
+          "sample_data": {
+            "11-character": "818,856,859",
+            "15-character": "619,623,632,822",
+            "23-character": "588,591,607,618,620,629",
+            "2-character": "25",
+            "19-character": "593,596,598,619,621",
+            "3-character": "826",
+            "8-character": "25,29,38",
+            "7-character": "621,812",
+            "5-character": "30,32",
+            "31-character": "587,591,594,597,605,613,621,627",
+            "10-character": "31,57,1018",
+            "12-character": "32,52,83,100",
+            "27-character": "819,832,836,848,853,855,860",
+            "14-character": "26,35,48,55,82",
+            "35-character": "589,600,612,615,618,620,622,624,626",
+            "39-character": "587,589,591,593,595,597,599,601,606,630",
+            "9-character": "54,57,102",
+            "4-character": "4,86",
+            "13-character": "24,59,62,1023",
+            "1-character": "6",
+            "6-character": "56,101",
+            "43-character": "589,591,594,603,610,612,614,619,621,623,633",
+            "17-character": "25,35,45,48,52,69",
+            "16-character": "6,14,16,20,23,86",
+            "47-character": "815,821,823,826,828,831,834,836,838,843,848,855",
+            "18-character": "26,43,50,56,65,101",
+            "20-character": "28,40,43,49,53,55,61",
+            "21-character": "25,31,33,37,1019,1021",
+            "26-character": "25,28,30,35,37,40,52,54,62",
+            "22-character": "7,13,23,25,27,39,41,43",
+            "28-character": "3,16,20,29,33,37,45,77,87,90",
+            "25-character": "2,4,14,22,40,85,1018,1022",
+            "33-character": "29,34,37,39,51,52,55,86,93,96,101",
+            "29-character": "24,27,29,33,36,45,54,58,60,62",
+            "24-character": "26,28,43,46,89,1017,1023"
+          },
+          "Entropy": 9.212957666275031
+        },
+        "subcellid": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "1": 64764,
+            "2": 8
+          },
+          "Entropy": 0.0012349935639957852
+        },
+        "bts_id": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "1-character": 64552,
+            "2-character": 220
+          },
+          "sample_data": {
+            "1-character": "1",
+            "2-character": "10"
+          },
+          "Entropy": 1.8221711051370184
+        },
+        "bcchmark": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "0": 47118,
+            "1": 17654
+          },
+          "Entropy": 0.5857845969978864
+        },
+        "operatingmode": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "0": 64772
+          },
+          "Entropy": -0.0
+        },
+        "rruid": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "0": 64772
+          },
+          "Entropy": -0.0
+        },
+        "powerclass": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "3": 64698,
+            "6": 37,
+            "1": 36,
+            "4": 1
+          },
+          "Entropy": 0.009744420290605911
+        },
+        "trxpriority": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "3": 44997,
+            "1": 17823,
+            "5": 1949,
+            "2": 3
+          },
+          "Entropy": 0.7140165381116153
+        },
+        "trx_id": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "1": 17653,
+            "2": 16885,
+            "3": 12348,
+            "4": 9519,
+            "5": 3348,
+            "6": 2440,
+            "7": 839,
+            "8": 735,
+            "9": 339,
+            "10": 262,
+            "11": 167,
+            "12": 119,
+            "13": 41,
+            "14": 37,
+            "16": 17,
+            "15": 16,
+            "17": 3,
+            "18": 1,
+            "20": 1,
+            "19": 1,
+            "21": 1
+          },
+          "Entropy": 1.7773204238613944
+        },
+        "portno": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "0": 64772
+          },
+          "Entropy": -0.0
+        },
+        "bsc_id": {
+          "label": "Categorical",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "1315": 6364,
+            "1304": 6245,
+            "1301": 5945,
+            "1305": 5464,
+            "1311": 5250,
+            "1312": 4508,
+            "1303": 4176,
+            "1308": 3986,
+            "1309": 3866,
+            "1302": 3857,
+            "1316": 3643,
+            "1306": 3394,
+            "1313": 2949,
+            "1314": 2661,
+            "1310": 2456,
+            "1399": 6,
+            "1307": 2
+          },
+          "Entropy": 2.6684234338551693
+        },
+        "site_id": {
+          "label": "SemiID",
+          "features": {
+            "useful": "True",
+            "has_invalid_data": "False"
+          },
+          "length_distribution": {
+            "4-character": 42571,
+            "5-character": 22140,
+            "3-character": 61
+          },
+          "sample_data": {
+            "4-character": "7198",
+            "5-character": "36348",
+            "3-character": "999"
+          },
+          "Entropy": 8.256617680187958
+        },
+        "trxtype": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "0": 64772
+          },
+          "Entropy": -0.0
+        },
+        "multicarriergroupno": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "0": 64772
+          },
+          "Entropy": -0.0
+        },
+        "timestamp": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "20200322": 64772
+          },
+          "Entropy": -0.0
+        },
+        "vendor": {
+          "label": "Categorical",
+          "features": {
+            "useful": "False",
+            "has_invalid_data": "False"
+          },
+          "categories": {
+            "zte": 64772
+          },
+          "Entropy": -0.0
+        }
+      }
+    },
+    "intra_dataset_analysis": {
+      "correlation": {
+        "topology_2g_multi_anonymized": {
+          "columns": [
+            "antenna_gain",
+            "phy_tilt",
+            "elec_tilt",
+            "height"
+          ],
+          "data": [
+            [
+              1.0,
+              0.0492545939,
+              0.0628714449,
+              0.3177440915
+            ],
+            [
+              0.0492545939,
+              1.0,
+              -0.3511381821,
+              0.1724181179
+            ],
+            [
+              0.0628714449,
+              -0.3511381821,
+              1.0,
+              -0.1776110075
+            ],
+            [
+              0.3177440915,
+              0.1724181179,
+              -0.1776110075,
+              1.0
+            ]
+          ]
+        },
+        "trx": {
+          "columns": [],
+          "data": []
+        }
+      },
+      "patterns": {
+        "topology_2g_multi_anonymized": {
+          "frequent_itemsets": [
+            {
+              "itemsets": "vendor: HUA",
+              "support": 0.6206124294758603
+            },
+            {
+              "itemsets": "layer: GSM1800",
+              "support": 0.5611568112321805
+            },
+            {
+              "itemsets": "frequency_band: GSM1800",
+              "support": 0.5611568112321805
+            },
+            {
+              "itemsets": "band_layer_id: GSM1800",
+              "support": 0.5611568112321805
+            },
+            {
+              "itemsets": "antenna_1: DCS",
+              "support": 0.526206985658297
+            },
+            {
+              "itemsets": "layer: GSM1800, frequency_band: GSM1800",
+              "support": 0.5611568112321805
+            },
+            {
+              "itemsets": "frequency_band: GSM1800, band_layer_id: GSM1800",
+              "support": 0.5611568112321805
+            },
+            {
+              "itemsets": "layer: GSM1800, band_layer_id: GSM1800",
+              "support": 0.5611568112321805
+            },
+            {
+              "itemsets": "layer: GSM1800, frequency_band: GSM1800, band_layer_id: GSM1800",
+              "support": 0.5611568112321805
+            },
+            {
+              "itemsets": "antenna_1: DCS, band_layer_id: GSM1800",
+              "support": 0.5254102243852018
+            },
+            {
+              "itemsets": "frequency_band: GSM1800, antenna_1: DCS",
+              "support": 0.5254102243852018
+            },
+            {
+              "itemsets": "layer: GSM1800, antenna_1: DCS",
+              "support": 0.5254102243852018
+            },
+            {
+              "itemsets": "frequency_band: GSM1800, antenna_1: DCS, band_layer_id: GSM1800",
+              "support": 0.5254102243852018
+            },
+            {
+              "itemsets": "layer: GSM1800, antenna_1: DCS, band_layer_id: GSM1800",
+              "support": 0.5254102243852018
+            },
+            {
+              "itemsets": "layer: GSM1800, frequency_band: GSM1800, antenna_1: DCS",
+              "support": 0.5254102243852018
+            },
+            {
+              "itemsets": "layer: GSM1800, frequency_band: GSM1800, antenna_1: DCS, band_layer_id: GSM1800",
+              "support": 0.5254102243852018
+            }
+          ],
+          "association_rules": [
+            {
+              "antecedents": "layer: GSM1800",
+              "consequents": "frequency_band: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "frequency_band: GSM1800",
+              "consequents": "layer: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "frequency_band: GSM1800",
+              "consequents": "band_layer_id: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "band_layer_id: GSM1800",
+              "consequents": "frequency_band: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "layer: GSM1800",
+              "consequents": "band_layer_id: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "band_layer_id: GSM1800",
+              "consequents": "layer: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "frequency_band: GSM1800, layer: GSM1800",
+              "consequents": "band_layer_id: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "layer: GSM1800, band_layer_id: GSM1800",
+              "consequents": "frequency_band: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "frequency_band: GSM1800, band_layer_id: GSM1800",
+              "consequents": "layer: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "layer: GSM1800",
+              "consequents": "frequency_band: GSM1800, band_layer_id: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "frequency_band: GSM1800",
+              "consequents": "layer: GSM1800, band_layer_id: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "band_layer_id: GSM1800",
+              "consequents": "frequency_band: GSM1800, layer: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "antenna_1: DCS",
+              "consequents": "band_layer_id: GSM1800",
+              "confidence": 0.9984858405631037
+            },
+            {
+              "antecedents": "band_layer_id: GSM1800",
+              "consequents": "antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "frequency_band: GSM1800",
+              "consequents": "antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "antenna_1: DCS",
+              "consequents": "frequency_band: GSM1800",
+              "confidence": 0.9984858405631037
+            },
+            {
+              "antecedents": "layer: GSM1800",
+              "consequents": "antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "antenna_1: DCS",
+              "consequents": "layer: GSM1800",
+              "confidence": 0.9984858405631037
+            },
+            {
+              "antecedents": "frequency_band: GSM1800, antenna_1: DCS",
+              "consequents": "band_layer_id: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "frequency_band: GSM1800, band_layer_id: GSM1800",
+              "consequents": "antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "antenna_1: DCS, band_layer_id: GSM1800",
+              "consequents": "frequency_band: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "frequency_band: GSM1800",
+              "consequents": "antenna_1: DCS, band_layer_id: GSM1800",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "antenna_1: DCS",
+              "consequents": "frequency_band: GSM1800, band_layer_id: GSM1800",
+              "confidence": 0.9984858405631037
+            },
+            {
+              "antecedents": "band_layer_id: GSM1800",
+              "consequents": "frequency_band: GSM1800, antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "layer: GSM1800, antenna_1: DCS",
+              "consequents": "band_layer_id: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "layer: GSM1800, band_layer_id: GSM1800",
+              "consequents": "antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "antenna_1: DCS, band_layer_id: GSM1800",
+              "consequents": "layer: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "layer: GSM1800",
+              "consequents": "antenna_1: DCS, band_layer_id: GSM1800",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "antenna_1: DCS",
+              "consequents": "layer: GSM1800, band_layer_id: GSM1800",
+              "confidence": 0.9984858405631037
+            },
+            {
+              "antecedents": "band_layer_id: GSM1800",
+              "consequents": "layer: GSM1800, antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "frequency_band: GSM1800, layer: GSM1800",
+              "consequents": "antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "layer: GSM1800, antenna_1: DCS",
+              "consequents": "frequency_band: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "frequency_band: GSM1800, antenna_1: DCS",
+              "consequents": "layer: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "layer: GSM1800",
+              "consequents": "frequency_band: GSM1800, antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "frequency_band: GSM1800",
+              "consequents": "layer: GSM1800, antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "antenna_1: DCS",
+              "consequents": "frequency_band: GSM1800, layer: GSM1800",
+              "confidence": 0.9984858405631037
+            },
+            {
+              "antecedents": "frequency_band: GSM1800, layer: GSM1800, antenna_1: DCS",
+              "consequents": "band_layer_id: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "frequency_band: GSM1800, layer: GSM1800, band_layer_id: GSM1800",
+              "consequents": "antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "layer: GSM1800, antenna_1: DCS, band_layer_id: GSM1800",
+              "consequents": "frequency_band: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "frequency_band: GSM1800, antenna_1: DCS, band_layer_id: GSM1800",
+              "consequents": "layer: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "frequency_band: GSM1800, layer: GSM1800",
+              "consequents": "antenna_1: DCS, band_layer_id: GSM1800",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "layer: GSM1800, antenna_1: DCS",
+              "consequents": "frequency_band: GSM1800, band_layer_id: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "layer: GSM1800, band_layer_id: GSM1800",
+              "consequents": "frequency_band: GSM1800, antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "frequency_band: GSM1800, antenna_1: DCS",
+              "consequents": "layer: GSM1800, band_layer_id: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "frequency_band: GSM1800, band_layer_id: GSM1800",
+              "consequents": "layer: GSM1800, antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "antenna_1: DCS, band_layer_id: GSM1800",
+              "consequents": "frequency_band: GSM1800, layer: GSM1800",
+              "confidence": 1.0
+            },
+            {
+              "antecedents": "layer: GSM1800",
+              "consequents": "frequency_band: GSM1800, antenna_1: DCS, band_layer_id: GSM1800",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "frequency_band: GSM1800",
+              "consequents": "layer: GSM1800, antenna_1: DCS, band_layer_id: GSM1800",
+              "confidence": 0.9362983997851031
+            },
+            {
+              "antecedents": "antenna_1: DCS",
+              "consequents": "frequency_band: GSM1800, layer: GSM1800, band_layer_id: GSM1800",
+              "confidence": 0.9984858405631037
+            },
+            {
+              "antecedents": "band_layer_id: GSM1800",
+              "consequents": "frequency_band: GSM1800, layer: GSM1800, antenna_1: DCS",
+              "confidence": 0.9362983997851031
+            }
+          ]
+        },
+        "trx": {
+          "frequent_itemsets": [
+            {
+              "itemsets": "bcchmark: 0",
+              "support": 0.727443957265485
+            },
+            {
+              "itemsets": "trxpriority: 3",
+              "support": 0.6946983264373495
+            },
+            {
+              "itemsets": "trxpriority: 3, bcchmark: 0",
+              "support": 0.6946365713579942
+            }
+          ],
+          "association_rules": [
+            {
+              "antecedents": "trxpriority: 3",
+              "consequents": "bcchmark: 0",
+              "confidence": 0.99991110518479
+            },
+            {
+              "antecedents": "bcchmark: 0",
+              "consequents": "trxpriority: 3",
+              "confidence": 0.9549004626681947
+            }
+          ]
+        }
+      }
+    },
+    "inter_dataset_analysis": {
+      "topology_2g_multi_anonymized": {
+        "trx": [
+          {
+            "parent": "bcch",
+            "child": "bts_id",
+            "ratio": 0.9999073673809671
+          },
+          {
+            "parent": "tch_nbr",
+            "child": "bts_id",
+            "ratio": 1.0
+          },
+          {
+            "parent": "cell_int_id",
+            "child": "bts_id",
+            "ratio": 1.0
+          },
+          {
+            "parent": "site_id",
+            "child": "bts_id",
+            "ratio": 1.0
+          },
+          {
+            "parent": "CELLNO",
+            "child": "bts_id",
+            "ratio": 1.0
+          },
+          {
+            "parent": "bsic",
+            "child": "bts_id",
+            "ratio": 0.9955845118260978
+          },
+          {
+            "parent": "sector_int_id",
+            "child": "bts_id",
+            "ratio": 1.0
+          },
+          {
+            "parent": "site_int_id",
+            "child": "bts_id",
+            "ratio": 1.0
+          },
+          {
+            "parent": "cgi_hex_1",
+            "child": "bts_id",
+            "ratio": 1.0
+          },
+          {
+            "parent": "site_int_id",
+            "child": "site_id",
+            "ratio": 0.9991354288890261
+          }
+        ]
+      },
+      "trx": {
+        "topology_2g_multi_anonymized": [
+          {
+            "parent": "caarfcnlist",
+            "child": "bcch",
+            "ratio": 0.9960161936345234
+          },
+          {
+            "parent": "caarfcnlist",
+            "child": "tch_nbr",
+            "ratio": 0.9997729594732659
+          },
+          {
+            "parent": "caarfcnlist",
+            "child": "sdcch_nbr",
+            "ratio": 0.9999432398683165
+          },
+          {
+            "parent": "caarfcnlist",
+            "child": "CELLNO",
+            "ratio": 0.867175572519084
+          },
+          {
+            "parent": "caarfcnlist",
+            "child": "bsic",
+            "ratio": 1.0
+          },
+          {
+            "parent": "bts_id",
+            "child": "sdcch_nbr",
+            "ratio": 0.9557838574185492
+          }
+        ]
+      }
+    }
+  },
+  "datetime": 1589581929,
+  "datasets": [
+    "topology_2g_multi_anonymized",
+    "trx"
+  ],
+  "project": "p2",
+  "analysis_name": "a2"
+}
