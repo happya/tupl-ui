@@ -113,7 +113,7 @@ class Create extends Component {
                  </Col>
                 </FormGroup>
                 <Button  type="submit" size="sm" color="primary"><i className="fa fa-dot-circle-o"></i> Submit</Button>
-               <Button type="reset" size="sm" color="danger"><i className="fa fa-ban"></i> Reset</Button>
+               {/* <Button type="reset" size="sm" color="danger"><i className="fa fa-ban"></i> Reset</Button> */}
                </Form>
               </CardBody>
 
@@ -167,7 +167,9 @@ class Create extends Component {
 
                 <FormGroup row>
                      <Col md="3">
-                       <Label htmlFor="analysis"> Threshold (Please enter a number in 0-1):  </Label>
+                       <Label htmlFor="analysis">
+                        Categories' threshold (number in 0-1):
+                      </Label>
                      </Col>
                      <Col xs="12" md="9">
                        <Input type="text" id="text-input"
@@ -179,7 +181,7 @@ class Create extends Component {
                      </Col>
                    </FormGroup>
                 <Button type="submit" size="sm" color="primary"><i className="fa fa-dot-circle-o"></i> Submit</Button>
-                <Button type="reset" size="sm" color="danger"><i className="fa fa-ban"></i> Reset</Button>
+                {/* <Button type="reset" size="sm" color="danger"><i className="fa fa-ban"></i> Reset</Button> */}
                </Form>
                </CardBody>
 
