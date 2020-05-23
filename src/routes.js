@@ -38,13 +38,16 @@ const User = React.lazy(() => import('./views/Users/User'));
 
 const Create = React.lazy(() => import('./views/Tupl/Create'));
 const Single = React.lazy(() => import('./views/Tupl/Single'));
-const Intra = React.lazy(() => import('./views/Tupl/Intra'));
+const Correlation = React.lazy(() => import('./views/Tupl/Correlation'));
+const Pattern = React.lazy(() => import('./views/Tupl/Pattern'));
+
 const Inter = React.lazy(() => import('./views/Tupl/Inter'));
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 const routes = [
   {path: '/single', name: 'Create', component: Single},
   {path: '/create', name: 'Create', component: Create},
-  {path: '/intra', name: 'Create', component: Intra},
+  {path: '/correlation', name: 'Create', component: Correlation},
+  {path: '/pattern', name: 'Create', component: Pattern},
   {path: '/inter', name: 'Create', component: Inter},
   {path: '/categorical', name: 'Categorical', component: Charts},
   { path: '/', exact: true, name: 'Home' },

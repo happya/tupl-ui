@@ -50,12 +50,12 @@ export default {
       // title: true,
       name: 'Correlation',
       icon: 'cui-share',
-      url: '/intra'
+      url: '/correlation'
     },
     {
       name: 'Frequent Pattern',
       icon: 'cui-basket-loaded',
-      url: '/intra'
+      url: '/pattern'
     },{
       title: true,
       name: 'Inter-dataset'
