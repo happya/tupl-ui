@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import store from '../../store'
+import Logo from './tupl_logo.png';
+
 import { createProject, createAnalysis, getProjects, getMostRecent } from '../../api/project'
 import {
   changeProjectAction,
@@ -77,6 +79,7 @@ class Create extends Component {
   render() {
     return (
       <div className="app flex-row align-items-center">
+        {/* <img src={Logo}/> */}
         <Container>
           <Row className="justify-content-center">
             <Col md="8">

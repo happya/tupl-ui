@@ -933,7 +933,7 @@ const time = <p>Today is {this.state.date.getDate()}/{this.state.date.getMonth()
                           </label>
 
                           <label className="createProjectName">
-                            Categories' threshold (number in 0-1):
+
                             <input type="text" value={this.state.createanalysisthreshold} onChange={this.handleChangeAnalysisThreshold} placeholder="threshold"
                             />
                           </label>

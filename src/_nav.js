@@ -1,8 +1,8 @@
 export default {
   items: [
     {
-      name: 'Dashboard',
-      url: '/dashboard',
+      name: 'Analyzer',
+      // url: '/dashboard',
       icon: 'icon-speedometer',
       // badge: {
       //   variant: 'info',
@@ -113,11 +113,11 @@ export default {
     //       url: '/base/dropdowns',
     //       icon: 'icon-puzzle',
     //     },
-        {
-          name: 'Forms',
-          url: '/base/forms',
-          icon: 'icon-puzzle',
-        },
+        // {
+        //   name: 'Forms',
+        //   url: '/base/forms',
+        //   icon: 'icon-puzzle',
+        // },
     //     {
     //       name: 'Jumbotrons',
     //       url: '/base/jumbotrons',
