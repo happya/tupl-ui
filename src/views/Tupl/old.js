@@ -72,7 +72,7 @@ class App extends Component {
     this.submitCreateAnalysis = this.submitCreateAnalysis.bind(this);
 
 
-    
+
 
 
 
@@ -823,8 +823,6 @@ const time = <p>Today is {this.state.date.getDate()}/{this.state.date.getMonth()
                     showPaginationTop
 
                   >
-
-
                   </ReactTable>
 
                 </div>

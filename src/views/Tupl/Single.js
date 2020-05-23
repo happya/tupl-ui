@@ -43,7 +43,8 @@ class Single extends Component {
   }
 
 
-  componentDidMount(){
+  componentWillMount(){
+    console.log('will mount')
     this.setState({
       'curFile': this.state.datasets[0]
     })
@@ -355,7 +356,6 @@ render() {
   console.log('render')
   let show = [this.selectFile()]
   if (this.state.curFile !== ''){
-    console.log(this.plotSlectedFile())
     const h2 = <h2>{this.state.curFile}</h2>
     show.push(h2)
     show.push(this.plotSlectedFile())
@@ -363,7 +363,6 @@ render() {
   return (
     <div>
         {show}
-        {/* {this.plotAllFiles()} */}
     </div>
   )
 
