@@ -25,13 +25,21 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 
 class Correlation extends Component {
-  // constructor(props){
-  //   super(props)
+  constructor(props){
+    super(props)
+    this.state = {
+      'results': store.getState().res.results.intra_dataset_analysis.correlation
+    }
 
-  //   store.subscribe(this.handleStoreChange)
-  // }
+    this.handleStoreChange = this.handleStoreChange.bind(this)
+    store.subscribe(this.handleStoreChange)
+  }
 
-
+handleStoreChange() {
+  this.setState({
+    'results': store.getState().res.results.intra_dataset_analysis.correlation
+  })
+}
 
 
 
